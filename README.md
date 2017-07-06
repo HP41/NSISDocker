@@ -14,8 +14,8 @@
 ---------------
 
 ### Features
-- Only meant to compile NSIS scripts
-- Uses Debian experimental as it's the only Debian branch that has NSIS version 3.
+- Meant to compile NSIS scripts
+- Uses Debian experimental as it's the only Debian branch that has NSIS version 3 package.
 - Has the `NSIS 3.01-1` package installed.
 - Entrypoint is `makensis -V4`, therefore logging is enabled by default.
 
@@ -34,4 +34,4 @@ docker run -it \
 
 ### Possible modifications
 
-- `ENTRYPOINT` can be modified in command/compose to run an `nsis command` of your choice.
+- `ENTRYPOINT` can be modified in command/compose to run a command of your choice.
